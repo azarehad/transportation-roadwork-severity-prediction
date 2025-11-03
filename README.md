@@ -60,7 +60,7 @@ Four different classification models were trained and evaluated on their ability
 | **Random Forest** | **82.6%** | **0.908** |
 | Gradient Boosting | 74.6% | 0.863 |
 
-## Results & Key Findings
+## Results & Findings
 
 * The **Random Forest Classifier** was the best-performing model, achieving an **Accuracy of 82.6%** and an **AUC of 0.908** on the 2021 test data.
 * **Feature Importance:** The most significant predictors for a high-severity event are:
@@ -71,10 +71,3 @@ Four different classification models were trained and evaluated on their ability
     5.  `End_Lat` (End Latitude)
     6.  `Start_Lng` (Start Longitude)
 * **Qualitative Analysis:** A review of the event descriptions suggests that Severity 4 events are often long-term, structural closures (e.g., "COVID-19 - Outdoor dining," "major gas installation"), while lower-severity events are related to short-term, mobile work (e.g., "bridge maintenance," "crane operation").
-
-## 🚀 How to Use
-
-1.  Clone this repository.
-2.  Ensure you have the required Python libraries installed: `pandas`, `numpy`, `geopandas`, `plotly`, `matplotlib`, `seaborn`, and `scikit-learn`.
-3.  Download the `US_Constructions_Dec21.csv` file from the [Kaggle dataset](https://www.kaggle.com/datasets/sobhanmoosavi/us-road-construction-and-closures) and place it in the correct directory.
-4.  Run the `transportation-roadwork-severity-prediction.ipynb` notebook.
